@@ -11,10 +11,13 @@ else:
     # Instrução (ões) B
 '''
 
-#Lê dois valores inteiros e compara ambos
+# Lê dois valores inteiros e compara ambos
 x = int(input('Digite um valor inteiro: '))
 y = int(input('Digite um segundo valor inteiro: '))
-if (x > y):
-  print('O primeiro valor é maior que o segundo!')
+
+if x > y:
+    print('O primeiro valor é maior que o segundo!')
+elif x < y:
+    print('O segundo valor é maior que o primeiro!')
 else:
-  print('O segundo valor é maior que o primeiro!')
+    print('Os dois valores são iguais!')
